@@ -26,7 +26,7 @@ app_license = "apache-2.0"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/theme_mybotia/css/theme_mybotia.css"
-# app_include_js = "/assets/theme_mybotia/js/theme_mybotia.js"
+app_include_js = "/assets/theme_mybotia/js/theme_mybotia.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/theme_mybotia/css/theme_mybotia.css"
