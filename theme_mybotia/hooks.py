@@ -174,6 +174,10 @@ app_include_js = "/assets/theme_mybotia/js/theme_mybotia.js"
 # Overriding Methods
 # ------------------------------
 #
+
+override_whitelisted_methods = {
+	"frappe.core.doctype.user.user.switch_theme": "theme_mybotia.override.switch_theme"
+}
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "theme_mybotia.event.get_events"
 # }

@@ -1,5 +1,7 @@
 console.log("Hu!!!");
 
+frappe.provide("frappe.ui");
+
 frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitcher {
     constructor() {
         super();
@@ -19,14 +21,14 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     info: "Dark Theme",
                 },
                 {
-                    name: "theme_mybotia",
-                    label: "MyBot IA",
-                    info: "A modern theme for MyBot IA",
-                },
-                {
                     name: "automatic",
                     label: "Automatic",
                     info: "Uses system's theme to switch between light and dark mode",
+                },
+                {
+                    name: "theme_mybotia",
+                    label: "MyBot IA",
+                    info: "A modern theme for MyBot IA CRM",
                 },
             ];
 
