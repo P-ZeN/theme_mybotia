@@ -1,4 +1,4 @@
-console.log("HuhuhuHaaaaaaHAAA!!!");
+console.log("HuhuhuHaaaaaaHAAAaaa!!!");
 
 frappe.provide("frappe.ui");
 
