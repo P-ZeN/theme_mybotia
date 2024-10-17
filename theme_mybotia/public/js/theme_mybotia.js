@@ -27,7 +27,7 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                 },
                 {
                     name: "theme_mybotia",
-                    label: "MyBot IA",
+                    label: "MyBot IA Thème",
                     info: "A modern theme for MyBot IA CRM",
                 },
             ];
