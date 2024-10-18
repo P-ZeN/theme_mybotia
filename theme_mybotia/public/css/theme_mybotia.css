@@ -159,6 +159,11 @@ input:focus{
 .btn-primary:hover{
     background-color: rgba(255, 120, 10, 0.93) !important;
 }
+
+a.link-item:hover,
+.desk-sidebar-item:hover  {
+    background-color: var(--background-color);
+}
 /* .btn-secondary{
     background-color: #606060 !important;
     color: var(--white-color) !important;
