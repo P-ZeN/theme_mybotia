@@ -186,7 +186,7 @@ input:focus{
     color: var(--white-color);
 
 }
-.navbar .nav-link button {
+.navbar button {
     color: var(--white-color);
 }
 .navbar-expand{
