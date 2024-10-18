@@ -163,6 +163,7 @@ input:focus{
 a.link-item:hover,
 .desk-sidebar-item:hover  {
     background-color: var(--background-color);
+    color: #fff;
 }
 /* .btn-secondary{
     background-color: #606060 !important;
