@@ -185,8 +185,11 @@ input:focus{
     height: var(--navbar-height);
     color: var(--white-color);
 }
+.navbar button {
+    color: var(--white-color);
+}
 .navbar .es-icon {
-    fill: var(--white-color);
+    stroke: var(--white-color) !important;
 }
 
 .navbar-expand{
