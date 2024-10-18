@@ -183,6 +183,8 @@ input:focus{
 .navbar{
     background: var(--background-color) !important;
     height: var(--navbar-height);
+    color: var(--white-color);
+
 }
 .navbar-expand{
     background-color: var(--background-color);
@@ -217,13 +219,12 @@ header .form-control:focus{
 .search-bar .awesomplete input{
     height: 32px;
 }
-/*#navbar-search{
+/**/
+#navbar-search{
     width: 300px;
-    background-color: rgb(65, 78, 90);
-    border-radius: 0px;
-    color: #f9f9f9;
+    border-radius: 5px;
     border: none;
-}*/
+}
 header ul#navbar-breadcrumbs{
     margin-top: -8px;
 }
