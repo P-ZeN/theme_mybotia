@@ -135,7 +135,7 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #396a9b;
+    --background-color: #989898;
     --primary-color: #ffa00a;
     --secondary-color: #7574ff;
     --white-color: #ffffff;
@@ -181,7 +181,7 @@ input:focus{
     overflow: hidden;
 }
 .ce-header {
-    border-bottom: 1px dotted #eee;
+    border-bottom: 1px dashed #ddd;
 }
 /* Top Header */
 .navbar {
