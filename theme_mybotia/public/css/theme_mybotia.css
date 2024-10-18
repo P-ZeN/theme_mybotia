@@ -163,6 +163,7 @@ input:focus{
 a.link-item:hover,
 .desk-sidebar-item:hover,
 .desk-sidebar-item:hover a,
+.desk-sidebar-item:hover a .icon,
 .widget.links-widget-box .link-item .link-content:hover  {
     background-color: var(--background-color) !important;
     color: #fff !important;
