@@ -180,15 +180,15 @@ input:focus{
 
 
 /* Top Header */
-.navbar{
+.navbar {
     background: var(--background-color) !important;
     height: var(--navbar-height);
     color: var(--white-color);
+}
+.navbar .es-icon {
+    fill: var(--white-color);
+}
 
-}
-.navbar button {
-    color: var(--white-color);
-}
 .navbar-expand{
     background-color: var(--background-color);
 }
