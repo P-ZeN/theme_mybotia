@@ -180,7 +180,9 @@ input:focus{
 [data-page-route=Workspaces] .codex-editor .codex-editor__redactor .ce-block {
     overflow: hidden;
 }
-
+.ce-header {
+    border-bottom: 1px dotted #eee;
+}
 /* Top Header */
 .navbar {
     background: var(--background-color) !important;
