@@ -186,6 +186,9 @@ input:focus{
     color: var(--white-color);
 
 }
+.navbar .nav-link button {
+    color: var(--white-color);
+}
 .navbar-expand{
     background-color: var(--background-color);
 }
@@ -254,8 +257,8 @@ header .form-control:focus{
 
 
 /* Input Fields */
-input{
-    border-radius: 0 !important;
+input {
+    border-radius: 0 ;
 }
 .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
