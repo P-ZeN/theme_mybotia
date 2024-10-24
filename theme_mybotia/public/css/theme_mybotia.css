@@ -169,6 +169,10 @@ a.link-item:hover,
     color: #fff !important;
     stroke: #fff !important;
 }
+
+#navbar-breadcrumbs li.disabled a {
+    color: #ddd !important
+}
 /* .btn-secondary{
     background-color: #606060 !important;
     color: var(--white-color) !important;
