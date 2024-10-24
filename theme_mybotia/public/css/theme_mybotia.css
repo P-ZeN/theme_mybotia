@@ -206,6 +206,9 @@ a.link-item:hover,
 .navbar :not(.dropdown-menu-right) button {
     color: var(--white-color);
 }
+.navbar .dropdown-menu-right button {
+    color: #666;
+}
 .navbar .es-icon {
     stroke: var(--white-color) !important;
 }
