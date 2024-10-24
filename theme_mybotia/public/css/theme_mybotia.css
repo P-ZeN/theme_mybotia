@@ -203,7 +203,7 @@ a.link-item:hover,
     height: var(--navbar-height);
     color: var(--white-color);
 }
-.navbar button {
+.navbar :not(.dropdown-menu-right) button {
     color: var(--white-color);
 }
 .navbar .es-icon {
