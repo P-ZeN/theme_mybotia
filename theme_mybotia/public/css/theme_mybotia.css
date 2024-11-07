@@ -157,7 +157,8 @@ input:focus{
     border-radius: 0 !important;
 }
 .btn-primary:hover{
-    background-color: rgba(255, 120, 10, 0.93) !important;
+    color: var(--primary-color) !important;
+    background-color: #fff !important;
 }
 
 a.link-item:hover,
